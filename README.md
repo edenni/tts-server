@@ -10,12 +10,11 @@ A PaddleSpeech powered TTS server for Legado.
 
 - [ ] Fine-tune the pre-trained model with a [custom dataset](https://github.com/w4123/GenshinVoice)
 
-## Start Docker
-
+## Build Docker image & start container
 ```
-docker build . -t paddlespeech
+bash build_image.sh
 
-docker run --runtime=nvidia -p 5000:5000 -it paddlespeech:latest
+bash run.sh
 ```
 
 ## Using with Legado
