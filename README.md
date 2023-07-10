@@ -2,16 +2,15 @@
 
 A PaddleSpeech powered TTS server for Legado.
 
-
 ## TODO
 
-- [] Use Unicorn instead of the development HTTP server
-- [] Download necessary models when building image
-- [] Fine-tune the pre-trained model with a [custom dataset](https://github.com/w4123/GenshinVoice)
+- [x] Use Unicorn instead of the development HTTP server
 
+- [ ] Download necessary models when building image
+
+- [ ] Fine-tune the pre-trained model with a [custom dataset](https://github.com/w4123/GenshinVoice)
 
 ## Start Docker
-
 
 ```
 docker build . -t paddlespeech
