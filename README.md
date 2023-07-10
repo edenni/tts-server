@@ -9,6 +9,9 @@ A PaddleSpeech powered TTS server for Legado.
 - [x] Download necessary models when building image
 
 - [ ] Fine-tune the pre-trained model with a [custom dataset](https://github.com/w4123/GenshinVoice)
+  - [ ] Learn about some model details
+  - [ ] Prepare the dataset for fine-tuning
+  - [ ] Training  
 
 ## Build Docker image & start container
 ```
