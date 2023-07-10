@@ -1,0 +1,4 @@
+paddlespeech==1.4.1
+pydub==0.25.1
+gunicorn==20.1.0
+flask==2.2.5
